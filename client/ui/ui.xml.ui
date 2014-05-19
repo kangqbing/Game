@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\cocos2dx\fawsk\client\ui</ProjectDir>
+  <Version>1.4.0.1</Version>
+  <Resources>D:\cocos2dx\fawsk\client\ui\Resources</Resources>
+  <Name>ui</Name>
+  <JsonFileName>ui.json</JsonFileName>
+  <JsonFolder>D:\cocos2dx\fawsk\client\ui\Json</JsonFolder>
+  <JsonList>
+    <string>ui_login.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>480</Width>
+    <Height>320</Height>
+  </CanvasSize>
+  <filePath>D:\cocos2dx\fawsk\client\ui\ui.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <imagePngList>
+    <string>btn_normal.png</string>
+    <string>btn_down.png</string>
+    <string>btn_normal_guest.png</string>
+    <string>btn_down_guest.png</string>
+    <string>btn_register_normal.png</string>
+    <string>btn_register_down.png</string>
+    <string>checkbox_un_select.png</string>
+    <string>checkbox_select.png</string>
+    <string>login_background.png</string>
+  </imagePngList>
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>ui_login.json</CurrentUIJson>
+</UIProject>
