@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GameServer", "GameServer\GameServer.vcxproj", "{B0D74F38-1D01-4C89-80CA-19919905FD8C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{735EDE2A-7546-49A7-B90A-3B541E0F75C2} = {735EDE2A-7546-49A7-B90A-3B541E0F75C2}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "game_lib", "game_lib\game_lib.vcxproj", "{735EDE2A-7546-49A7-B90A-3B541E0F75C2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fawsk", "client\proj.win32\fawsk.vcxproj", "{76A39BB2-9B84-4C65-98A5-654D86B86F2A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{735EDE2A-7546-49A7-B90A-3B541E0F75C2} = {735EDE2A-7546-49A7-B90A-3B541E0F75C2}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0D74F38-1D01-4C89-80CA-19919905FD8C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B0D74F38-1D01-4C89-80CA-19919905FD8C}.Debug|Win32.Build.0 = Debug|Win32
+		{B0D74F38-1D01-4C89-80CA-19919905FD8C}.Release|Win32.ActiveCfg = Release|Win32
+		{B0D74F38-1D01-4C89-80CA-19919905FD8C}.Release|Win32.Build.0 = Release|Win32
+		{735EDE2A-7546-49A7-B90A-3B541E0F75C2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{735EDE2A-7546-49A7-B90A-3B541E0F75C2}.Debug|Win32.Build.0 = Debug|Win32
+		{735EDE2A-7546-49A7-B90A-3B541E0F75C2}.Release|Win32.ActiveCfg = Release|Win32
+		{735EDE2A-7546-49A7-B90A-3B541E0F75C2}.Release|Win32.Build.0 = Release|Win32
+		{76A39BB2-9B84-4C65-98A5-654D86B86F2A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{76A39BB2-9B84-4C65-98A5-654D86B86F2A}.Debug|Win32.Build.0 = Debug|Win32
+		{76A39BB2-9B84-4C65-98A5-654D86B86F2A}.Release|Win32.ActiveCfg = Release|Win32
+		{76A39BB2-9B84-4C65-98A5-654D86B86F2A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
